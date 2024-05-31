@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Group 1 Elements</h1>
+		<div class="table">
+			<div class="table-row header queue">
+				<div class="head">Element</div>
+				<div class="sidebar">
+				<div class="side">Atomic No</div>
+				<div class="side">Boiling point</div>
+				<div class="side">Melting point</div>
+				<div class="side">Standard enthalpy</div>
+			</div>
+		</div>
+			<div class="table-row header"><div class="head"><p id="elementSign">Li</p></div>
+		<div class="sidebar">
+				<div class="side"><p id="atomicNo">3</p></div>
+				<div class="side"><p id="boiling-point">1615</p></div>
+				<div class="side"><p id="melting-point">4535</p></div>
+				<div class="side"><p id="Standard-enthalpy">3.0</p></div>
+			</div></div>
+		</div>
+		<div class="elements">
+			<button type="button" id="li" onclick="liShow()" class="coloured">Li</button>
+			<button type="button" id="na" onclick="naShow()">Na</button>
+			<button type="button" id="k" onclick="kShow()">K</button>
+			<button type="button" id="rb" onclick="rbShow()">Rb</button>
+			<button type="button" id="cs" onclick="csShow()">Cs</button>
+		</div>
+	</div>
+</body>
+<script src="script.js"></script>
+</html>
